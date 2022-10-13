@@ -20,12 +20,14 @@ import cv2
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
-import openvino.inference_engine
 from async_pipeline import AsyncPipeline
 from IPython.display import HTML, Image, Markdown, clear_output, display
 from matplotlib.lines import Line2D
 from models import model
-from openvino.inference_engine import IECore
+try:
+    from openvino.inference_engine import IECore
+except ImportError:
+    pass
 from tqdm.notebook import tqdm_notebook
 
 
