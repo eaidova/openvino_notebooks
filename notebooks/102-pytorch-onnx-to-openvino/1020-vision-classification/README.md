@@ -1,4 +1,4 @@
-# Знщекср Classification model to OpenVINO™ Model Conversion and Optimization Tutorial
+# PyTorch Classification model to OpenVINO™ Model Conversion and Optimization Tutorial
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openvinotoolkit/openvino_notebooks/HEAD?filepath=notebooks%2F101-tensorflow-to-openvino%2F1020-tensorflow-to-openvino.ipynb)
 
