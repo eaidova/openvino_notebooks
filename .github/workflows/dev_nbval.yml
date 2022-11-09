@@ -182,11 +182,6 @@ jobs:
       run: |
         python .ci/patch_notebooks.py
 
-    - name: Login on HF hub
-      env: 
-        HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      run: |
-        python .ci/login_hf.py --token ${{ env.HF_TOKEN }}
     # Test that JupyterLab runs without errors
     - name: Test Jupyterlab
       run: |
