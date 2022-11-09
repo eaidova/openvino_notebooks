@@ -1,4 +1,4 @@
-name: nbval
+name: nbval (develop)
 
 on:
   workflow_dispatch:
