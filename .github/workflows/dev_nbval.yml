@@ -152,7 +152,7 @@ jobs:
     - name: Make pipcache directory with OpenVINO packages
       if: steps.cachepip.outputs.cache-hit != 'true'
       run: |
-        mv picache pipcache_full
+        mv pipcache pipcache_full
         mv pipcache_openvino pipcache
 
     # Create list of installed pip packages that can be downloaded as artifacts
