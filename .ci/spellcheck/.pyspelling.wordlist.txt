@@ -6,6 +6,7 @@ ADE
 aeroplane
 affective
 al
+ALiBi
 analytics
 AnimeGAN
 api
@@ -118,6 +119,7 @@ EnCodec
 encodec
 enum
 et
+Evol
 EVS
 FC
 FIL
@@ -148,6 +150,7 @@ gpu
 GPU's
 GPUs
 Gradio
+gradio
 grayscale
 gRPC
 Gutendex
@@ -155,6 +158,8 @@ Hafner
 HandBrake
 heatmap
 HED
+HC
+HH
 HuggingFace
 HWC
 hyperparameters
@@ -205,6 +210,8 @@ latents
 LibriSpeech
 Lim
 Liu
+LLama
+llm
 LLM
 LLMs
 LMS
@@ -233,6 +240,9 @@ MONAI
 MONAI's
 Monodepth
 monodepth
+MosaicPretrainedTransformer
+mpt
+MPT
 MRPC
 Multiclass
 multiclass
@@ -244,6 +254,7 @@ nano
 nar
 NAS
 natively
+NEOX
 NER
 NETP
 NLP
@@ -254,6 +265,7 @@ noncomparable
 NONINFRINGEMENT
 numpy
 NumPy
+OASST
 ocr
 OCRv
 OMZ
@@ -293,6 +305,7 @@ parametrize
 performant
 PersonaGPT
 photorealism
+pijama
 Piotr
 Pipelining
 PNDM
@@ -387,6 +400,7 @@ Segmenter
 segmenter
 serializable
 ShapeNet
+ShareGPT
 siggraph
 sigmoid
 SISR
