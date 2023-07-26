@@ -305,7 +305,6 @@ parametrize
 performant
 PersonaGPT
 photorealism
-pijama
 Piotr
 Pipelining
 PNDM
@@ -365,7 +364,7 @@ Realtime
 realtime
 rebase
 redistributable
-RedPijama
+RedPajama
 RegNet
 RegNetY
 reidentification
