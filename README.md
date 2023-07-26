@@ -25,7 +25,8 @@ Check out the latest notebooks that show how to optimize and deploy popular mode
 | [Instruct pix2pix - Image-editing](notebooks/231-instruct-pix2pix-image-editing/)<br>| Image editing with InstructPix2Pix | <img src=https://user-images.githubusercontent.com/29454499/219943222-d46a2e2d-d348-4259-8431-37cf14727eda.png width=300>  | [Blog - Generative AI and Explainable AI with OpenVINO](https://medium.com/@paularamos_5416/generative-ai-and-explainable-ai-with-openvino-2b5f8e4e720b#:~:text=2.-,InstructPix2Pix,-Pix2Pix%20is%20a)  |
 | [DeepFloyd IF - Text-to-Image generation](notebooks/238-deeployd-if/)<br>| Text-to-Image Generation with DeepFloyd IF and OpenVINO™ | <img src=https://user-images.githubusercontent.com/29454499/241643886-dfcf3c48-8d50-4730-ae28-a21595d9504f.png width=300> |   |
 | [ImageBind](notebooks/239-image-bind/)<br>| Binding multimodal data using ImageBind and OpenVINO™ | <img src=https://user-images.githubusercontent.com/29454499/240364108-39868933-d221-41e6-9b2e-dac1b14ef32f.png width=300> |   |
-| [Dolly v2](notebooks/240-dolly-2-instruction-following/)<br>| Instruction following using Databricks Dolly 2.0 and OpenVINO™ | <img src=https://user-images.githubusercontent.com/29454499/237291423-022f07d2-966b-4be2-9a1c-98f1cf0691c2.png width=300> | | [LLM chatbot](notebooks/245-llm-chatbot)<br> | Create LLM-powered Chatbot using OpenVINO™ |  <img src=https://user-images.githubusercontent.com/29454499/237291423-022f07d2-966b-4be2-9a1c-98f1cf0691c2.png width=300> |
+| [Dolly v2](notebooks/240-dolly-2-instruction-following/)<br>| Instruction following using Databricks Dolly 2.0 and OpenVINO™ | <img src=https://user-images.githubusercontent.com/29454499/237291423-022f07d2-966b-4be2-9a1c-98f1cf0691c2.png width=500> | 
+| [LLM chatbot](notebooks/245-llm-chatbot)<br> | Create LLM-powered Chatbot using OpenVINO™ |  <img src=https://user-images.githubusercontent.com/29454499/237291423-022f07d2-966b-4be2-9a1c-98f1cf0691c2.png width=500> |
 
 ## Table of Contents
 
@@ -159,7 +160,7 @@ Demos that demonstrate inference on a particular model.
 | [242-freevc-voice-conversion](notebooks/242-freevc-voice-conversion/)<br> | High-Quality Text-Free One-Shot Voice Conversion with FreeVC and OpenVINO™ ||
 | [243-tflite-selfie-segmentation](notebooks/243-tflite-selfie-segmentation/) <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/openvinotoolkit/openvino_notebooks/HEAD?filepath=notebooks%2F243-tflite-selfie-segmentation%2F243-tflite-selfie-segmentation.ipynb)<br> [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/openvinotoolkit/openvino_notebooks/blob/main/notebooks/243-tflite-selfie-segmentation/243-tflite-selfie-segmentation.ipynb)| Selfie Segmentation using TFLite and OpenVINO™ |  <img src="https://user-images.githubusercontent.com/29454499/251085926-14045ebc-273b-4ccb-b04f-82a3f7811b87.gif" width=400>|
 |[244-named-entity-recognition](notebooks/244-named-entity-recognition/)<br>[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/openvinotoolkit/openvino_notebooks/blob/main/notebooks/244-named-entity-recognition/244-named-entity-recognition.ipynb) | Named entity recognition with OpenVINO™ | |
-|[245-llm-chatbot](notebooks/245-llm-chatbot)<br> | Create LLM-powered Chatbot using OpenVINO™ |  <img src=https://user-images.githubusercontent.com/29454499/237291423-022f07d2-966b-4be2-9a1c-98f1cf0691c2.png width=300> |
+|[245-llm-chatbot](notebooks/245-llm-chatbot)<br> | Create LLM-powered Chatbot using OpenVINO™ |  <img src=https://user-images.githubusercontent.com/29454499/255799218-611e7189-8979-4ef5-8a80-5a75e0136b50.png width=300> |
 
 <div id='-model-training'></div>
 
