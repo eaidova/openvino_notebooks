@@ -34,3 +34,34 @@ The tutorial consists of the following steps:
 
 ## Installation Instructions
 If you have not installed all required dependencies, follow the [Installation Guide](../../README.md).
+
+## Remote inference via ovmsclient
+Build custom OpenVINO Model Server image with a 0-dim bypass required for first iteration of llm-chat use case:
+```
+git clone https://github.com/openvinotoolkit/model_server
+cd model_server
+git checkout 0-dim
+make docker_build RUN_TESTS=0 OVMS_CPP_DOCKER_IMAGE=ovms-custom-image
+```
+
+Run OpenVINO Model Server instance with model name `llm` on port `11339` (configurable in notebook source).
+
+```
+docker run -it --rm -p 11339:11339 -v <model_path>:/model:rw ovms-custom-image --port 11339 --model_name llm --model_path /model --log_level DEBUG
+```
+
+Run notebook, select "Network" from device list in the notebook.  
+
+Check OVMS for inference logs when interacting with chat bot:
+```
+[2023-07-28 11:21:06.559][62][serving][debug][modelmanager.cpp:1552] Requesting model: llm; version: 0.
+[2023-07-28 11:21:06.559][62][serving][debug][model.hpp:89] Getting default version for model: llm, 1
+[2023-07-28 11:21:06.559][62][serving][debug][modelinstance.cpp:1031] Model: llm, version: 1 already loaded
+[2023-07-28 11:21:06.559][62][serving][debug][modelinstance.cpp:1209] Getting infer req duration in model llm, version 1, nireq 0: 0.006 ms
+[2023-07-28 11:21:06.559][62][serving][debug][modelinstance.cpp:1217] Preprocessing duration in model llm, version 1, nireq 0: 0.000 ms
+[2023-07-28 11:21:06.561][62][serving][debug][modelinstance.cpp:1227] Deserialization duration in model llm, version 1, nireq 0: 2.032 ms
+[2023-07-28 11:21:13.065][62][serving][debug][modelinstance.cpp:1235] Prediction duration in model llm, version 1, nireq 0: 6501.929 ms
+[2023-07-28 11:21:13.131][62][serving][debug][modelinstance.cpp:1244] Serialization duration in model llm, version 1, nireq 0: 63.679 ms
+[2023-07-28 11:21:13.131][62][serving][debug][modelinstance.cpp:1252] Postprocessing duration in model llm, version 1, nireq 0: 0.000 ms
+[2023-07-28 11:21:13.131][62][serving][debug][prediction_service.cpp:141] Total gRPC request processing time: 6572.26 ms
+```
