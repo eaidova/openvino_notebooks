@@ -172,7 +172,6 @@
 - [Stable Diffusion with KerasCV and OpenVINO](./stable-diffusion-keras-cv/stable-diffusion-keras-cv.ipynb)
 - [Image Generation with Stable Diffusion and IP-Adapter](./stable-diffusion-ip-adapter/stable-diffusion-ip-adapter.ipynb)
 - [Image generation with Stable Cascade and OpenVINO](./stable-cascade-image-generation/stable-cascade-image-generation.ipynb)
-- [Speech to Text with OpenVINO™](./speech-to-text/speech-to-text.ipynb)
 - [Text Generation via Speculative Sampling, KV Caching, and OpenVINO™](./speculative-sampling/speculative-sampling.ipynb)
 - [Sound Generation with AudioLDM2 and OpenVINO™](./sound-generation-audioldm2/sound-generation-audioldm2.ipynb)
 - [SoftVC VITS Singing Voice Conversion and OpenVINO™](./softvc-voice-conversion/softvc-voice-conversion.ipynb)
