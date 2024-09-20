@@ -68,6 +68,12 @@ def qwen_completion_to_prompt(completion):
 
 SUPPORTED_LLM_MODELS = {
     "English": {
+        "llama-3.2-1b-instruct": {
+            "model_id": "Llama-3.2-1B-Instruct",
+        },
+        "llama-3.2-3b-instruct": {
+            "model_id": "Llama-3.2-3B-Instruct",
+        },
         "qwen2-0.5b-instruct": {
             "model_id": "Qwen/Qwen2-0.5B-Instruct",
             "remote_code": False,
@@ -629,7 +635,7 @@ def convert_and_compress_model(model_id, model_config, precision, use_preconvert
     import platform
 
     pt_model_id = model_config["model_id"]
-    pt_model_name = model_id.split("-")[0]
+    pt_model_name = model_id.split("/")[-1]
     model_subdir = precision if precision == "FP16" else precision + "_compressed_weights"
     model_dir = Path(pt_model_name) / model_subdir
     remote_code = model_config.get("remote_code", False)
